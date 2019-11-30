@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67e2eef3-ef06-45eb-96f8-53bbe25b691b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/chen/dao/AccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/chen/dao/AccountMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +84,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575105316526</updated>
       <workItem from="1575105318859" duration="492000" />
-      <workItem from="1575105891477" duration="2289000" />
+      <workItem from="1575105891477" duration="2870000" />
     </task>
     <task id="LOCAL-00001" summary="redis缓存击穿">
       <created>1575134744292</created>
@@ -96,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575134744292</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="redis缓存击穿测试修改">
+      <created>1575135429247</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575135429247</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,13 +108,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="redis缓存击穿" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis缓存击穿" />
+    <MESSAGE value="redis缓存击穿测试修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis缓存击穿测试修改" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="543" y="140" key="CommitChangelistDialog2" timestamp="1575134744151">
+    <state x="543" y="140" key="CommitChangelistDialog2" timestamp="1575135429039">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="543" y="140" key="CommitChangelistDialog2/1920.68.1194.834/0.0.1920.1080@0.0.1920.1080" timestamp="1575134744151" />
+    <state x="543" y="140" key="CommitChangelistDialog2/1920.68.1194.834/0.0.1920.1080@0.0.1920.1080" timestamp="1575135429039" />
     <state x="763" y="463" key="Github.CreateGistDialog" timestamp="1575134610136">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -123,10 +128,10 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="264" y="191" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1575105923992" />
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1575134847958">
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1575135440524">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2/1920.68.1194.834/0.0.1920.1080@0.0.1920.1080" timestamp="1575134847958" />
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2/1920.68.1194.834/0.0.1920.1080@0.0.1920.1080" timestamp="1575135440524" />
     <state x="482" y="390" key="com.intellij.ide.util.TipDialog" timestamp="1575105892208">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
