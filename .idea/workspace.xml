@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67e2eef3-ef06-45eb-96f8-53bbe25b691b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cn/chen/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/cn.chen.dao.AccountMapper" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/chen/dao/AccountMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/chen/dao/AccountMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -84,7 +89,8 @@
       <option name="presentableId" value="Default" />
       <updated>1575105316526</updated>
       <workItem from="1575105318859" duration="492000" />
-      <workItem from="1575105891477" duration="2870000" />
+      <workItem from="1575105891477" duration="3265000" />
+      <workItem from="1575136232062" duration="1794000" />
     </task>
     <task id="LOCAL-00001" summary="redis缓存击穿">
       <created>1575134744292</created>
@@ -100,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575135429247</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="redis缓存击穿测试第三次修改">
+      <created>1575135854327</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1575135854328</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,13 +122,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="redis缓存击穿" />
     <MESSAGE value="redis缓存击穿测试修改" />
-    <option name="LAST_COMMIT_MESSAGE" value="redis缓存击穿测试修改" />
+    <MESSAGE value="redis缓存击穿测试第三次修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis缓存击穿测试第三次修改" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="543" y="140" key="CommitChangelistDialog2" timestamp="1575135429039">
+    <state x="668" y="350" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1575188028939">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="543" y="140" key="CommitChangelistDialog2/1920.68.1194.834/0.0.1920.1080@0.0.1920.1080" timestamp="1575135429039" />
+    <state x="668" y="350" key="#com.intellij.fileTypes.FileTypeChooser/399.1080.1194.834/0.0.1920.1080@0.0.1920.1080" timestamp="1575188028939" />
+    <state x="561" y="472" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1575136262376">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="561" y="472" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/1920.68.1194.834/0.0.1920.1080@0.0.1920.1080" timestamp="1575136262376" />
+    <state x="543" y="140" key="CommitChangelistDialog2" timestamp="1575135854181">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="543" y="140" key="CommitChangelistDialog2/1920.68.1194.834/0.0.1920.1080@0.0.1920.1080" timestamp="1575135854181" />
     <state x="763" y="463" key="Github.CreateGistDialog" timestamp="1575134610136">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -128,14 +150,18 @@
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="264" y="191" key="SettingsEditor/0.23.1792.1097@0.23.1792.1097" timestamp="1575105923992" />
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1575135440524">
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2" timestamp="1575136185655">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="560" y="280" key="Vcs.Push.Dialog.v2/1920.68.1194.834/0.0.1920.1080@0.0.1920.1080" timestamp="1575135440524" />
+    <state x="560" y="280" key="Vcs.Push.Dialog.v2/1920.68.1194.834/0.0.1920.1080@0.0.1920.1080" timestamp="1575136185655" />
     <state x="482" y="390" key="com.intellij.ide.util.TipDialog" timestamp="1575105892208">
       <screen x="0" y="23" width="1792" height="1097" />
     </state>
     <state x="482" y="390" key="com.intellij.ide.util.TipDialog/0.23.1792.1097@0.23.1792.1097" timestamp="1575105892208" />
+    <state x="653" y="338" key="git4idea.merge.GitPullDialog" timestamp="1575136144487">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="653" y="338" key="git4idea.merge.GitPullDialog/1920.68.1194.834/0.0.1920.1080@0.0.1920.1080" timestamp="1575136144487" />
     <state x="625" y="241" key="search.everywhere.popup" timestamp="1575135238480">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
